@@ -2,10 +2,7 @@
 
 Laboratorio de limpieza y anonimización de un registro de accesos. Todos los datos son ficticios.
 
-Archivos de esta carpeta:
-- `accesos_crudo.csv`: datos originales, sin tocar (incluye los errores introducidos).
-- `accesos_anonimizado.csv`: versión anonimizada, exportada como valores.
-- `transformaciones.md`: este documento.
+
 
 ## Tabla de transformaciones (accesos_crudo → accesos_anonimizado)
 
