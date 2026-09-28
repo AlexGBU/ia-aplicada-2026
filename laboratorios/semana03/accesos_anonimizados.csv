@@ -1,0 +1,37 @@
+id,id_persona,semana,franja,area,tipo_empresa,motivo
+1,P001,32,Mañana,Obra norte,Constructora,Supervisión
+2,P002,32,Mañana,Obra norte,Constructora,Supervisión
+5,P003,32,Noche,Sala de servidores,Soporte TI,Mantenimiento
+6,P004,32,Mañana,Oficina central,Sin dato,Entrevista
+7,P005,Sin dato,Mañana,Obra sur,Constructora,Supervisión
+8,P006,32,Mañana,Oficina central,Diseño,Entrega de planos
+9,P007,32,Madrugada,Sala de servidores,Soporte TI,Mantenimiento
+12,P008,32,Mañana,Obra sur,Constructora,Supervisión
+13,P009,32,Mañana,Oficina central,Diseño,Entrega de planos
+14,P010,32,Mañana,Sala de servidores,Soporte TI,Mantenimiento
+15,P011,32,Mañana,Obra norte,Constructora,Visita cliente
+16,P012,32,Mañana,Obra sur,Constructora,Supervisión
+17,P013,33,Tarde,Oficina central,Diseño,Entrevista
+18,P014,33,Tarde,Sala de servidores,Soporte TI,Mantenimiento
+19,P015,33,Madrugada,Obra norte,Constructora,Visita cliente
+20,P016,33,Tarde,Obra sur,Diseño,Entrega de planos
+21,P017,33,Tarde,Oficina central,Diseño,Entrevista
+22,P018,33,Tarde,Sala de servidores,Soporte TI,Mantenimiento
+23,P019,33,Tarde,Obra norte,Constructora,Visita cliente
+24,P020,33,Noche,Obra sur,Constructora,Supervisión
+25,P021,33,Noche,Oficina central,Diseño,Entrega de planos
+26,P022,34,Noche,Sala de servidores,Soporte TI,Mantenimiento
+27,P023,34,Noche,Obra norte,Constructora,Visita cliente
+28,P024,34,Noche,Obra sur,Diseño,Supervisión
+29,P025,35,Mañana,Oficina central,Diseño,Entrevista
+30,P026,35,Mañana,Sala de servidores,Soporte TI,Mantenimiento
+31,P027,35,Mañana,Obra norte,Constructora,Visita cliente
+32,P028,35,Mañana,Obra sur,Constructora,Supervisión
+33,P029,36,Tarde,Oficina central,Diseño,Entrega de planos
+34,P030,36,Tarde,Sala de servidores,Soporte TI,Mantenimiento
+35,P031,36,Tarde,Obra norte,Constructora,Visita cliente
+36,P032,37,Tarde,Obra sur,Diseño,Supervisión
+37,P033,37,Tarde,Oficina central,Diseño,Entrevista
+38,P034,37,Tarde,Sala de servidores,Soporte TI,Mantenimiento
+39,P035,38,Noche,Obra norte,Constructora,Visita cliente
+40,P036,38,Noche,Obra sur,Diseño,Supervisión
