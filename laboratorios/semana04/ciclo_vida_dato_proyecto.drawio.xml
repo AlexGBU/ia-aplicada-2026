@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="ciclo_vida_dato_proyecto" id="GLwYLMQETRE7TxdvvJXN">
+    <mxGraphModel dx="1825" dy="1009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-2" parent="1" style="text;html=1;fontSize=14;fontStyle=1;align=left;verticalAlign=middle;" value="Ciclo de vida del dato del proyecto — en rojo: recorrido del dato de mayor riesgo&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt; (nombre, correo y teléfono)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="1500" x="40" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;fontStyle=1;" value="Captura" vertex="1">
+          <mxGeometry height="60" width="220" x="40" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-4" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=11;strokeColor=#999999;fillColor=#FFFFFF;spacingLeft=6;spacingRight=6;spacingTop=4;" value="&lt;b&gt;Qué ocurre:&lt;/b&gt; El registro de accesos llega como archivo (accesos_crudo.xlsx) con nombre, correo y teléfono de cada persona.&lt;br&gt;&lt;br&gt;&lt;b&gt;Responsable:&lt;/b&gt; Responsable del proyecto (analista de datos)&lt;br&gt;&lt;br&gt;&lt;b&gt;Control:&lt;/b&gt; Captura mínima necesaria: solo se trabaja con las columnas que el análisis requiere." vertex="1">
+          <mxGeometry height="210" width="220" x="40" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;fontStyle=1;" value="Almacenamiento" vertex="1">
+          <mxGeometry height="60" width="220" x="310" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-6" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=11;strokeColor=#999999;fillColor=#FFFFFF;spacingLeft=6;spacingRight=6;spacingTop=4;" value="&lt;b&gt;Qué ocurre:&lt;/b&gt; El original se guarda intacto y la limpieza se hace en una copia (accesos_limpio).&lt;br&gt;&lt;br&gt;&lt;b&gt;Responsable:&lt;/b&gt; Analista de datos / proveedor de nube&lt;br&gt;&lt;br&gt;&lt;b&gt;Control:&lt;/b&gt; Original de solo lectura, copia de trabajo, acceso con contraseña y respaldo." vertex="1">
+          <mxGeometry height="210" width="220" x="310" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;fontSize=11;" value="Servicio de nube donde vive el archivo" vertex="1">
+          <mxGeometry height="60" width="180" x="330" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;fontStyle=1;" value="Uso" vertex="1">
+          <mxGeometry height="60" width="220" x="580" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-9" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=11;strokeColor=#999999;fillColor=#FFFFFF;spacingLeft=6;spacingRight=6;spacingTop=4;" value="&lt;b&gt;Qué ocurre:&lt;/b&gt; Se limpia, se valida y se buscan accesos inusuales (fuera de 06:00-22:00).&lt;br&gt;&lt;br&gt;&lt;b&gt;Responsable:&lt;/b&gt; Analista de datos&lt;br&gt;&lt;br&gt;&lt;b&gt;Control:&lt;/b&gt; Uso limitado al fin declarado (patrones de acceso) y registro de cambios en incidencias." vertex="1">
+          <mxGeometry height="210" width="220" x="580" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;fontSize=11;" value="Modelo generativo en la nube (prueba de la Parte 4)" vertex="1">
+          <mxGeometry height="60" width="180" x="600" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;fontStyle=1;" value="Compartición" vertex="1">
+          <mxGeometry height="60" width="220" x="850" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-12" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=11;strokeColor=#999999;fillColor=#FFFFFF;spacingLeft=6;spacingRight=6;spacingTop=4;" value="&lt;b&gt;Qué ocurre:&lt;/b&gt; Se publica el reporte y accesos_anonimizado en el repositorio; nunca el original.&lt;br&gt;&lt;br&gt;&lt;b&gt;Responsable:&lt;/b&gt; Líder del proyecto&lt;br&gt;&lt;br&gt;&lt;b&gt;Control:&lt;/b&gt; Seudónimos P001… y generalización de franja/semana; la llave tabla_seudonimos no se sube." vertex="1">
+          <mxGeometry height="210" width="220" x="850" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;fontSize=11;" value="Repositorio externo (GitHub)" vertex="1">
+          <mxGeometry height="60" width="180" x="870" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;fontStyle=1;" value="Retención" vertex="1">
+          <mxGeometry height="60" width="220" x="1120" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-15" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=11;strokeColor=#999999;fillColor=#FFFFFF;spacingLeft=6;spacingRight=6;spacingTop=4;" value="&lt;b&gt;Qué ocurre:&lt;/b&gt; Se conserva el archivo anonimizado para el análisis y el reporte.&lt;br&gt;&lt;br&gt;&lt;b&gt;Responsable:&lt;/b&gt; Líder del proyecto&lt;br&gt;&lt;br&gt;&lt;b&gt;Control:&lt;/b&gt; Plazo definido de conservación y revisión periódica del repositorio." vertex="1">
+          <mxGeometry height="210" width="220" x="1120" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;fontStyle=1;" value="Eliminación" vertex="1">
+          <mxGeometry height="60" width="220" x="1390" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-17" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=11;strokeColor=#999999;fillColor=#FFFFFF;spacingLeft=6;spacingRight=6;spacingTop=4;" value="&lt;b&gt;Qué ocurre:&lt;/b&gt; Se borra accesos_crudo y la llave de seudónimos al terminar el análisis.&lt;br&gt;&lt;br&gt;&lt;b&gt;Responsable:&lt;/b&gt; Líder del proyecto / administrador del sistema&lt;br&gt;&lt;br&gt;&lt;b&gt;Control:&lt;/b&gt; Borrado seguro y confirmación documentada de la eliminación." vertex="1">
+          <mxGeometry height="210" width="220" x="1390" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-18" edge="1" parent="1" source="EMTiiFZ-V9rVRtA2ZZcJ-3" style="endArrow=classic;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="EMTiiFZ-V9rVRtA2ZZcJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-19" edge="1" parent="1" source="EMTiiFZ-V9rVRtA2ZZcJ-3" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#b85450;strokeWidth=3;endArrow=classic;exitX=0.8;exitY=0;entryX=0.2;entryY=0;fillColor=#f8cecc;gradientColor=#ea6b66;" target="EMTiiFZ-V9rVRtA2ZZcJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-20" edge="1" parent="1" source="EMTiiFZ-V9rVRtA2ZZcJ-5" style="endArrow=classic;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="EMTiiFZ-V9rVRtA2ZZcJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-21" edge="1" parent="1" source="EMTiiFZ-V9rVRtA2ZZcJ-5" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#b85450;strokeWidth=3;endArrow=classic;exitX=0.8;exitY=0;entryX=0.2;entryY=0;fillColor=#f8cecc;gradientColor=#ea6b66;" target="EMTiiFZ-V9rVRtA2ZZcJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-22" edge="1" parent="1" source="EMTiiFZ-V9rVRtA2ZZcJ-8" style="endArrow=classic;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="EMTiiFZ-V9rVRtA2ZZcJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-23" edge="1" parent="1" source="EMTiiFZ-V9rVRtA2ZZcJ-8" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#b85450;strokeWidth=3;endArrow=classic;exitX=0.8;exitY=0;entryX=0.2;entryY=0;fillColor=#f8cecc;gradientColor=#ea6b66;" target="EMTiiFZ-V9rVRtA2ZZcJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-24" edge="1" parent="1" source="EMTiiFZ-V9rVRtA2ZZcJ-11" style="endArrow=classic;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="EMTiiFZ-V9rVRtA2ZZcJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-25" edge="1" parent="1" source="EMTiiFZ-V9rVRtA2ZZcJ-11" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#b85450;strokeWidth=3;endArrow=classic;exitX=0.8;exitY=0;entryX=0.2;entryY=0;fillColor=#f8cecc;gradientColor=#ea6b66;" target="EMTiiFZ-V9rVRtA2ZZcJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-26" edge="1" parent="1" source="EMTiiFZ-V9rVRtA2ZZcJ-14" style="endArrow=classic;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="EMTiiFZ-V9rVRtA2ZZcJ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-27" edge="1" parent="1" source="EMTiiFZ-V9rVRtA2ZZcJ-14" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#FF0000;strokeWidth=3;endArrow=classic;exitX=0.8;exitY=0;entryX=0.2;entryY=0;" target="EMTiiFZ-V9rVRtA2ZZcJ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-28" edge="1" parent="1" source="EMTiiFZ-V9rVRtA2ZZcJ-5" style="strokeColor=#FF0000;strokeWidth=2;dashed=1;endArrow=classic;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="EMTiiFZ-V9rVRtA2ZZcJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-29" edge="1" parent="1" source="EMTiiFZ-V9rVRtA2ZZcJ-8" style="strokeColor=#FF0000;strokeWidth=2;dashed=1;endArrow=classic;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="EMTiiFZ-V9rVRtA2ZZcJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMTiiFZ-V9rVRtA2ZZcJ-30" edge="1" parent="1" source="EMTiiFZ-V9rVRtA2ZZcJ-11" style="strokeColor=#FF0000;strokeWidth=2;dashed=1;endArrow=classic;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="EMTiiFZ-V9rVRtA2ZZcJ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
