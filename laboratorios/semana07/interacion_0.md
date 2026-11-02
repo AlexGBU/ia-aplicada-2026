@@ -1,6 +1,5 @@
-# Registro de Respuestas — Iteración 0 (Línea Base)
+Iteración 0
 
-Este archivo contiene el resultado de ejecutar el prompt mínimo con las tres entradas de prueba definidas en `entradas.md` para el área de ciberseguridad, abriendo una conversación limpia para cada prueba.
 
 ---
 
