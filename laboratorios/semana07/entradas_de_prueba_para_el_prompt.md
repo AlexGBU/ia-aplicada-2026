@@ -1,7 +1,5 @@
 # Entradas de prueba para la optimización de prompts
 
-A continuación se presentan los tres textos de entrada numerados con diferentes niveles de claridad, información y ambigüedad, enfocados en el área de ciberseguridad para evaluar de forma estricta el desempeño de los modelos de IA.
-
 ### Entrada 1 (Claro y completo)
 "Necesito un plan de respuesta a incidentes para una PyME de comercio electrónico que opera en México. Contamos con 15 empleados, un servidor web en la nube (AWS), y manejamos datos de tarjetas de pago bajo estándares PCI-DSS. El objetivo es cumplir con la notificación obligatoria ante una filtración de datos según la legislación mexicana y la LFPDPPP."
 
